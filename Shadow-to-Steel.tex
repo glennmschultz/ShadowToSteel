@@ -11,6 +11,7 @@
 
 \usepackage{xcolor}
 \usepackage{tcolorbox}
+\usepackage{fancyhdr}
 \tcbuselibrary{skins}
 
 \usepackage{epigraph}
@@ -32,9 +33,39 @@
 
 % Remove "Chapter X" from header
 \pagestyle{plain}
+\definecolor{forgecolor}{RGB}{192, 192, 192}   % Light Gray (recommended)
+
+\newtcolorbox{scripturetopbox}{
+  colback=forgecolor!8,
+  colframe=forgecolor,
+  boxrule=1.2pt,
+  sharp corners,
+  enhanced,
+  width=\textwidth,
+  top=4pt,
+  bottom=4pt,
+  valign=center,
+  halign=left,
+  fontupper=\bfseries\small,
+  nobeforeafter
+}
+
+% Custom command — call this at the top of any page/chapter you want the box
+\newcommand{\scripturetop}[1]{
+  \begin{scripturetopbox}
+  #1
+  \end{scripturetopbox}
+  \vspace{6pt}   % small space after the box
+}
+
+\usepackage{needspace}
+\clubpenalty=10000
+\widowpenalty=10000
 
 
 \begin{document}
+
+\thispagestyle{fancy}   % ← Add this line so the very first page also gets the box
 
 % Title page
 \begin{titlepage}
@@ -77,7 +108,13 @@ He returns forged in the fire of obedience.}{}
 
 % Introduction / Preface (optional)
 \chapter*{Introduction}
-\addcontentsline{toc}{chapter}{Introduction}
+
+%\addcontentsline{toc}{chapter}{Introduction}
+
+% Custom command — call this at the top of any page/chapter you want the box
+\scripturetop{
+If you make a vow to the Lord your God, do not be lax in paying it off, for the Lord your God will certainly require it of you and you would be guilty of sin. - Deuteronomy 23:21
+}
 
 Following years of decline, on July 5, 2022 I was diagnosed with Relapsing Polychondritis — a rare, chronic, and often fatal autoimmune disease that attacks and destroys the body’s cartilage, particularly in the eyes, ears, nose, respiratory system, and trachea.
 
@@ -91,25 +128,7 @@ The next morning, in the twilight between sleep and waking, the Lord answered: �
 
 For those unfamiliar with powerlifting or gym culture, these are known as the Big Three — multi-joint compound lifts. A counter-intuitive recommendation for a patient with a serious connective tissue disease.
 
-That answer was not a miracle. It was a path. A forge. A way through the valley of the shadow of death.
-
-Years later,  a friend asked about that moment. His question was simple: “Did you make a bargain with the Lord, or did you make a vow?” I replied, “One does not bargain with the Lord. I made a vow.” He pointed me to Ecclesiastes 5:4–7 and Deuteronomy 23:21–23:
-
-\begin{tcolorbox}[
-  colback=gray!8,           % very light grey background
-  colframe=gray!40,         % subtle border
-  coltitle=black,           % title text in black (as requested)
-  title=Deuteronomy 23:21,
-  fonttitle=\bfseries,
-  boxrule=0.8pt,
-  arc=4pt,                  % rounded corners
-  left=12pt, right=12pt,
-  top=8pt, bottom=8pt
-]
-If you make a vow to the Lord do not be lax in paying it off, for the Lord your God will certainly require it of you and you would be guilty of sin.
-\end{tcolorbox}
-
-This book is the story of that path — from near-death weakness to restoration,  from betrayal to sovereignty,  from Shadow to Steel.
+That answer was not a miracle. It was a path. A forge. A way through the valley of the shadow of death.  This book is the story of that path — from near-death weakness to restoration,  from betrayal to sovereignty,  from Shadow to Steel.
 
 % Chapter 1 – The Dream
 \chapter{The Black Marble Room}
@@ -163,7 +182,7 @@ I would come to realize, that I was walking through the valley of the shadow of 
 The Book of Job is one of the oldest and most profound books in the Bible.  It is not primarily about why "bad things happen to good people."  It is about \textbf{faith under extreme testing} - whether a man will serve God for who God is, or only for the blessings he receives.  The story opens in Heaven with a dialog between God and Satan.  God points out Job as "blameless and upright, a man who fears God and shuns evil."  Satan immediately accuses Job of conditional faith: "Does Job fear God for nothing?" That is to say, Satan claims Job only serves God because God has built a protective hedge of blessing around Job.
 
 God then permits Satan to test Job - but with strict limits.  Satan cannot kill Job or take his life.  Everything else is on the table.  The story illustrates that Satan does not attack randomly.  Rather, Satan uses a systematic, multi-layered strategy designed to break Job's faith from every direction.  And rest assured Satan will use the same strategy with each and every person.  Satan's attack vectors as outlined in chapters one through two are outlined below:
-
+\newpage
 \begin{enumerate}
 \item \textbf{Economic - Livelihood Destruction (Job 1:14-17)}
 \begin{itemize}
@@ -203,23 +222,14 @@ What I did not yet realize was that the Valley was also the forge.
 
 
 \chapter{The Valley – The Place of Shadow and Fear}
-\begin{tcolorbox}[
-  colback=gray!8,           % very light grey background
-  colframe=gray!40,         % subtle border
-  coltitle=black,           % title text in black (as requested)
-  title=Psalm 22 - Suffering and Triumph of the Messiah,
-  fonttitle=\bfseries,
-  boxrule=0.8pt,
-  arc=4pt,                  % rounded corners
-  left=12pt, right=12pt,
-  top=8pt, bottom=8pt
-]
-2 My God, my God, why have you forsaken me? \newline
-\hspace*{30pt} Why have you paid no heed to my cry for help, \newline
-\hspace*{30pt} to my cries of anguish? \newline
-3 O my God, I cry by day, but you do not answer,\newline
-\hspace*{30pt} by night, but I am afforded no relief.
-\end{tcolorbox}
+\scripturetop{
+2 My God, my God, why have you forsaken me? \\
+\hspace*{10pt} Why have you paid no heed to my cry for help, to my cries of anguish?\\ 
+3 O my God, I cry by day, but you do not answer,by night,  \\
+\hspace*{10pt} but I am afforded no relief. \\
+20 But you, O lord, do not remain aloof from me;\\
+\hspace*{10pt} O my Strength, come quickly to my aid. -- Psalm 22
+}
 
 Psalm 22 was written by King David around 1000–970 BC during one of his darkest periods. Most scholars believe it was composed while he was on the run during the rebellion of his own son Absalom. At the time, David was hunted, betrayed by his closest advisor, publicly humiliated, and utterly alone — living in the valley of the shadow of death.
 
@@ -259,21 +269,6 @@ The diagnosis landed like a sentence: Relapsing Polychondritis. I now knew the n
 
 After a few minutes the fear gave way to clarity. I had already walked through the valley. I had already seen the black marble room. I had already heard the first quiet answer. In that moment I prayed as David once did in Psalm 22:
 
-\begin{tcolorbox}[
-  colback=gray!8,           % very light grey background
-  colframe=gray!40,         % subtle border
-  coltitle=black,           % title text in black (as requested)
-  title=Psalm 22 - Suffering and Triumph of the Messiah,
-  fonttitle=\bfseries,
-  boxrule=0.8pt,
-  arc=4pt,                  % rounded corners
-  left=12pt, right=12pt,
-  top=8pt, bottom=8pt
-]
-20 But you, O Lord, do not remain aloof from me;\newline
-\hspace*{15pt} O my Strength, come quickly to my aid.\newline
-\end{tcolorbox}
-
 I confessed my sins against the Lord. I apologized for the arrogance of believing everything I had accomplished was by my own strength instead of recognizing those things as blessings from Him. Then I made no bargain — only a vow.
 
 “If it is my time, then it is my time.  If it is not my time, tell me what to do to fix myself, and I will do it.”
@@ -284,23 +279,13 @@ The next morning, in the twilight between sleep and waking, the voice returned �
 
 For those unfamiliar with powerlifting, these are the Big Three---the foundational \mbox{compound} lifts.  For a man whose cartilage was being systematically destroyed by disease, the \mbox{prescription} sounded absurd.  Yet, in that moment, I understood: this was not a miracle.  This was a path.  This was the forge - the forge I knew so well from childhood.
 
-The valley showed me the darkness.  The Lord had shown me the way out.  Now the iron would become the fire that would refine - refine the shadow of death into steel.
+The valley showed me the darkness.  The Lord had shown me the way out.  Now the iron would become the fire that would refine - refine the shadow of death into steel. \newpage
 
-\begin{tcolorbox}[
-  colback=gray!8,           % very light grey background
-  colframe=gray!40,         % subtle border
-  coltitle=black,           % title text in black (as requested)
-  title=Psalm 23 - Prayer to the Good Shepherd,
-  fonttitle=\bfseries,
-  boxrule=0.8pt,
-  arc=4pt,                  % rounded corners
-  left=12pt, right=12pt,
-  top=8pt, bottom=8pt
-]
+\scripturetop{
 4 Even though I wander through the valley of the shadow of death,\newline
 5 I will fear no evil, for you are at my side,  \newline
-\hspace*{15pt} With your rod and your staff that comfort me.
-\end{tcolorbox}
+\hspace*{10pt} With your rod and your staff that comfort me. -- Psalm 23
+}
 
 The Lord heard my cries and answered - not with a miracle but a prescription.  I was to step from the valley of the shadow of death into the forge that refines, and I knew the Lord was with me.
 
@@ -317,19 +302,9 @@ I would often pray to the Lord, why this affliction, why me?  Always, to no answ
 
 I now realize the purpose of the first forge was to develop a determination and will enabling to withstand the fire of the second forge.  I returned to Church, prayed my Rosary daily and slowly I started to understand -
 
-The adversity we face has a purpose.. The Bible does not frame adversity and suffering as an accident of mistake.  It treats it as a deliberate refining process.  The prophet Malachi describes the Lord as a refiners fire:
+The adversity we face has a purpose.. The Bible does not frame adversity and suffering as an accident of mistake.  It treats it as a deliberate refining process.  The prophet Malachi describes the Lord as a refiners fire: \newpage
   
-\begin{tcolorbox}[
-  colback=gray!8,           % very light grey background
-  colframe=gray!40,         % subtle border
-  coltitle=black,           % title text in black (as requested)
-  title=Malachi 3:2-3,
-  fonttitle=\bfseries,
-  boxrule=0.8pt,
-  arc=4pt,                  % rounded corners
-  left=12pt, right=12pt,
-  top=8pt, bottom=8pt
-]
+\scripturetop{
 2 But who will be able to endure the day of his coming, \newline
 \hspace *{10pt} and how can stand when he appears?\newline
 For he is like a refiner's fire \newline
@@ -338,27 +313,13 @@ He will sit refining and purifying:\newline
 \hspace*{10pt} he will purify the descendants of Levi\newline
 and refine them like gold and silver.\newline
 \hspace*{10pt} so that they may in righteousness\newline
-\hspace*{10pt} offer due sacrifice to the Lord. 
-\end{tcolorbox}
-
-Isaiah echoes the same truth:
-
-\begin{tcolorbox}[
-  colback=gray!8,           % very light grey background
-  colframe=gray!40,         % subtle border
-  coltitle=black,           % title text in black (as requested)
-  title=Issah 48:10,
-  fonttitle=\bfseries,
-  boxrule=0.8pt,
-  arc=4pt,                  % rounded corners
-  left=12pt, right=12pt,
-  top=8pt, bottom=8pt
-]
+\hspace*{10pt} offer due sacrifice to the Lord.  -- Malachi 3:2-3\\
+}
+\scripturetop{
 10 See, I have tested you,
 \hspace*{10pt} but not in the manner silver is tested;
-I have tested you in the furnace of affliction.
-
-\end{tcolorbox}
+I have tested you in the furnace of affliction. -- Issah 48:10
+}
 
 The passages above are not just poetic language.  Rather, they reflect the mechanics of how God forms a man.   The fire does not destroy the silver -- it burns away the dross so that what remains is pure.  The furnace does not consume the gold -- it separates the impurities so the metal can be shaped and used.
 

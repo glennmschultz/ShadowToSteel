@@ -1,4 +1,3 @@
-\contentsline {chapter}{Introduction}{5}{}%
 \contentsline {chapter}{\numberline {1}The Black Marble Room}{7}{}%
 \contentsline {chapter}{\numberline {2}The Valley – The Place of Shadow and Fear}{11}{}%
 \contentsline {chapter}{\numberline {3}The Forge – The Fire That Refines}{15}{}%
