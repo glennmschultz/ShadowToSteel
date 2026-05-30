@@ -1,7 +1,7 @@
 \contentsline {chapter}{\numberline {1}The Black Marble Room}{7}{}%
 \contentsline {chapter}{\numberline {2}The Valley – The Place of Shadow and Fear}{11}{}%
 \contentsline {chapter}{\numberline {3}The Forge – The Fire That Refines}{15}{}%
-\contentsline {chapter}{\numberline {4}The Valley as Forge – The Same Fire}{19}{}%
+\contentsline {chapter}{\numberline {4}The Nature of God, Three Types of Men, Man's Biblical Role}{19}{}%
 \contentsline {chapter}{\numberline {5}The Locusts and the Repayment}{21}{}%
 \contentsline {chapter}{\numberline {6}Betrayal in the Valley}{23}{}%
 \contentsline {chapter}{\numberline {7}The Self-Built Prison}{25}{}%
