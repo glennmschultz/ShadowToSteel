@@ -2,10 +2,4 @@
 \contentsline {chapter}{\numberline {2}The Valley – The Place of Shadow and Fear}{11}{}%
 \contentsline {chapter}{\numberline {3}The Forge – The Fire That Refines}{15}{}%
 \contentsline {chapter}{\numberline {4}The Nature of God, Three Types of Men, Man's Biblical Role}{19}{}%
-\contentsline {chapter}{\numberline {5}The Locusts and the Repayment}{21}{}%
-\contentsline {chapter}{\numberline {6}Betrayal in the Valley}{23}{}%
-\contentsline {chapter}{\numberline {7}The Self-Built Prison}{25}{}%
-\contentsline {chapter}{\numberline {8}Walking Through Without Bitterness}{27}{}%
-\contentsline {chapter}{\numberline {9}The Three Pillars of Restoration}{29}{}%
-\contentsline {chapter}{\numberline {10}The Final Vindication – Repaid Double}{31}{}%
-\contentsline {chapter}{Conclusion}{33}{}%
+\contentsline {chapter}{Conclusion}{21}{}%
