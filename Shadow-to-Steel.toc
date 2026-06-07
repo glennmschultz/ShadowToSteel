@@ -9,4 +9,9 @@
 \contentsline {section}{\numberline {4.2}The Three Kinds of Men}{22}{}%
 \contentsline {section}{\numberline {4.3}The Biblical Man}{22}{}%
 \contentsline {chapter}{\numberline {5}The King that Kneels}{25}{}%
-\contentsline {chapter}{Conclusion}{27}{}%
+\contentsline {section}{\numberline {5.1}The Paradox of True Kingship}{26}{}%
+\contentsline {section}{\numberline {5.2}Biblical Kings Who Knelt}{27}{}%
+\contentsline {section}{\numberline {5.3}My Black Marble Room}{27}{}%
+\contentsline {section}{\numberline {5.4}The Cost and Power of Kneeling}{27}{}%
+\contentsline {section}{\numberline {5.5}The Hinge }{27}{}%
+\contentsline {chapter}{Conclusion}{29}{}%
