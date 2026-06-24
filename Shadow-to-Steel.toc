@@ -9,9 +9,26 @@
 \contentsline {section}{\numberline {4.2}The Three Kinds of Men}{22}{}%
 \contentsline {section}{\numberline {4.3}The Biblical Man}{22}{}%
 \contentsline {chapter}{\numberline {5}The King that Kneels}{25}{}%
-\contentsline {section}{\numberline {5.1}The Paradox of True Kingship}{26}{}%
+\contentsline {section}{\numberline {5.1}The Paradox of True Kingship}{27}{}%
 \contentsline {section}{\numberline {5.2}Biblical Kings Who Knelt}{27}{}%
-\contentsline {section}{\numberline {5.3}My Black Marble Room}{27}{}%
-\contentsline {section}{\numberline {5.4}The Cost and Power of Kneeling}{27}{}%
-\contentsline {section}{\numberline {5.5}The Hinge }{27}{}%
-\contentsline {chapter}{Conclusion}{29}{}%
+\contentsline {section}{\numberline {5.3}The Meaning of the Black Marble Room}{29}{}%
+\contentsline {section}{\numberline {5.4}The Cost and Power of Kneeling}{29}{}%
+\contentsline {section}{\numberline {5.5}The Dawn of the Three Kingdoms }{30}{}%
+\contentsline {chapter}{\numberline {6}The Three Kingdoms as a Reflection of the Trinity}{31}{}%
+\contentsline {chapter}{\numberline {7}The Spiritual Kingdom}{33}{}%
+\contentsline {section}{\numberline {7.1}Establishing the Spiritual Kingdom}{33}{}%
+\contentsline {section}{\numberline {7.2}Catholic Masculine Frame of the The Spiritual Kingdom}{35}{}%
+\contentsline {section}{\numberline {7.3}The Catholic Virtues in the Spiritual Kingdom}{35}{}%
+\contentsline {section}{\numberline {7.4}Living the Spiritual Kingdom Daily}{35}{}%
+\contentsline {chapter}{\numberline {8}Kingdom of Sovereignty - The Inner Throne}{37}{}%
+\contentsline {section}{\numberline {8.1}Reclaimed Reality}{38}{}%
+\contentsline {section}{\numberline {8.2}Frame and Boundaries}{39}{}%
+\contentsline {subsection}{\numberline {8.2.1}The Masculine Frame}{39}{}%
+\contentsline {subsection}{\numberline {8.2.2}Masculine Boundaries}{40}{}%
+\contentsline {subsection}{\numberline {8.2.3}No-Bid and Grey Rock}{40}{}%
+\contentsline {section}{\numberline {8.3}Self-Possession}{41}{}%
+\contentsline {chapter}{\numberline {9}The Physical Kingdom}{43}{}%
+\contentsline {section}{\numberline {9.1}The Weight Room - "The Iron Church"}{44}{}%
+\contentsline {section}{\numberline {9.2}Relationships}{44}{}%
+\contentsline {section}{\numberline {9.3}Daily Habits}{44}{}%
+\contentsline {chapter}{Conclusion}{45}{}%
